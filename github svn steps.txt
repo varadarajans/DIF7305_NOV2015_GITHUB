@@ -5,7 +5,7 @@ for admin only
 2. i created a repo in github
 
 for everyone
-3. svn co --depthy empty  https://github.com/varadarajans/DIF7305_NOV2015_GITHUB.git
+3. svn co --depth empty  https://github.com/varadarajans/DIF7305_NOV2015_GITHUB.git
 
 4. svn up trunk
 
