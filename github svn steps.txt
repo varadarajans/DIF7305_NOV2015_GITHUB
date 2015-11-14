@@ -1,0 +1,28 @@
+for everyone
+1. create account in github
+
+for admin only
+2. i created a repo in github
+
+for everyone
+3. svn co --depthy empty  https://github.com/varadarajans/DIF7305_NOV2015_GITHUB.git
+
+4. svn up trunk
+
+5. svn up --depth empty branches
+
+6. cd trunk
+
+7. create <urname>.txt inside trunk directory
+
+8. svn status
+ this should give this msg - ? <urname>.txt
+
+9. svn add <urname>.txt
+
+10. svn status
+ this should give this msg - A <urname>.txt
+
+11. go to https://github.com/settings/ssh and follow these instructions https://help.github.com/articles/generating-ssh-keys/
+
+12. svn commit -m "ur msg"
