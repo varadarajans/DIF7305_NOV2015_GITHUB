@@ -1,1 +1,26 @@
-test file uploadling..
+1. create account in github
+Varadarajan Sridharan - 09:43 : 
+2. i created a repo in github
+Varadarajan Sridharan - 09:43 : <a href="event:https://github.com/varadarajans/DIF7305_NOV2015_GITHUB"> <u>https://github.com/varadarajans/DIF7305_NOV2015_GITHUB</u></a> 
+Varadarajan Sridharan - 09:43 : 
+3. svn co --depthy empty <a href="event:https://github.com/varadarajans/DIF7305_NOV2015_GITHUB"> <u>https://github.com/varadarajans/DIF7305_NOV2015_GITHUB</u></a> 
+Varadarajan Sridharan - 09:43 : .git
+Varadarajan Sridharan - 09:43 : 
+4. svn up trunk
+Varadarajan Sridharan - 09:43 : 
+5. svn up --depth empty branches
+Varadarajan Sridharan - 09:44 : 
+6. cd trunk
+Varadarajan Sridharan - 09:44 : 
+7. create &#60;urname&#62;.txt inside trunk directory
+Varadarajan Sridharan - 09:44 : 
+8. svn status
+Varadarajan Sridharan - 09:44 : ? &#60;urname&#62;.txt
+Varadarajan Sridharan - 09:44 : 
+9. svn add &#60;urname&#62;.txt
+Varadarajan Sridharan - 09:44 : 
+10. svn status
+Varadarajan Sridharan - 09:44 : A &#60;urname&#62;.txt
+Varadarajan Sridharan - 09:45 : 
+11. <a href="event:https://github.com/settings/ssh">
+12. svn commit -m "ur msg"
