@@ -2,5 +2,12 @@ this is our common chat file
 Hello Class Friends... SenthilVKJ ASB...10 Jan...
 
 Arul added
+<<<<<<< HEAD
+<<<<<<< HEAD
+Hello Class Friends... SenthilVKJ ASB...23 Jan...
+=======
+=======
 varadu 23-jan
+>>>>>>> 1ace83d6c6a3fa7d45a6e7c0aca0cac6dd358ec2
 again added
+>>>>>>> c6a0f27ecaf4c8a3f32331328982e01c5c9757f4
