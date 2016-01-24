@@ -1,0 +1,161 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 08:47 ?        00:00:00 /sbin/init
+root         2     0  0 08:47 ?        00:00:00 [kthreadd]
+root         3     2  0 08:47 ?        00:00:06 [ksoftirqd/0]
+root         5     2  0 08:47 ?        00:00:00 [kworker/u:0]
+root         6     2  0 08:47 ?        00:00:00 [migration/0]
+root         7     2  0 08:47 ?        00:00:00 [watchdog/0]
+root         8     2  0 08:47 ?        00:00:00 [migration/1]
+root        10     2  0 08:47 ?        00:00:03 [ksoftirqd/1]
+root        12     2  0 08:47 ?        00:00:00 [watchdog/1]
+root        13     2  0 08:47 ?        00:00:00 [cpuset]
+root        14     2  0 08:47 ?        00:00:00 [khelper]
+root        15     2  0 08:47 ?        00:00:00 [kdevtmpfs]
+root        16     2  0 08:47 ?        00:00:00 [netns]
+root        18     2  0 08:47 ?        00:00:00 [sync_supers]
+root        19     2  0 08:47 ?        00:00:00 [bdi-default]
+root        20     2  0 08:47 ?        00:00:00 [kintegrityd]
+root        21     2  0 08:47 ?        00:00:00 [kblockd]
+root        22     2  0 08:47 ?        00:00:00 [ata_sff]
+root        23     2  0 08:47 ?        00:00:00 [khubd]
+root        24     2  0 08:47 ?        00:00:00 [md]
+root        26     2  0 08:47 ?        00:00:00 [khungtaskd]
+root        27     2  0 08:47 ?        00:00:26 [kswapd0]
+root        28     2  0 08:47 ?        00:00:00 [ksmd]
+root        29     2  0 08:47 ?        00:00:00 [khugepaged]
+root        30     2  0 08:47 ?        00:00:00 [fsnotify_mark]
+root        31     2  0 08:47 ?        00:00:00 [ecryptfs-kthrea]
+root        32     2  0 08:47 ?        00:00:00 [crypto]
+root        40     2  0 08:47 ?        00:00:00 [kthrotld]
+root        41     2  0 08:47 ?        00:00:00 [kworker/u:2]
+root        42     2  0 08:47 ?        00:00:00 [scsi_eh_0]
+root        43     2  0 08:47 ?        00:00:00 [scsi_eh_1]
+root        63     2  0 08:47 ?        00:00:00 [devfreq_wq]
+root       325     2  0 08:47 ?        00:00:01 [jbd2/sda5-8]
+root       326     2  0 08:47 ?        00:00:00 [ext4-dio-unwrit]
+root       394     1  0 08:47 ?        00:00:00 upstart-udev-bridge --daemon
+root       397     1  0 08:47 ?        00:00:00 /sbin/udevd --daemon
+root       643     2  0 08:47 ?        00:00:00 [kmpathd]
+root       648     2  0 08:47 ?        00:00:00 [kmpath_handlerd]
+root       649     2  0 08:47 ?        00:00:00 [kpsmoused]
+root       710     2  0 08:47 ?        00:00:00 [hd-audio0]
+102        835     1  0 08:47 ?        00:00:00 dbus-daemon --system --fork --activation=upstart
+root       856     1  0 08:47 ?        00:00:00 /usr/sbin/modem-manager
+root       858     1  0 08:47 ?        00:00:00 /usr/sbin/bluetoothd
+root       861     1  0 08:47 ?        00:00:00 NetworkManager
+root       875     1  0 08:47 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+syslog     880     1  0 08:47 ?        00:00:01 rsyslogd -c5
+root       899     2  0 08:47 ?        00:00:00 [krfcommd]
+avahi      902     1  0 08:47 ?        00:00:00 avahi-daemon: running [asb-OEM.local]
+root       919     1  0 08:47 ?        00:00:00 /usr/sbin/cupsd -F
+root       928     1  0 08:47 ?        00:00:00 upstart-socket-bridge --daemon
+avahi      954   902  0 08:47 ?        00:00:00 avahi-daemon: chroot helper
+root       972     1  0 08:47 tty4     00:00:00 /sbin/getty -8 38400 tty4
+root       983     1  0 08:47 tty5     00:00:00 /sbin/getty -8 38400 tty5
+root      1009     1  0 08:47 tty2     00:00:00 /sbin/getty -8 38400 tty2
+root      1010     1  0 08:47 tty3     00:00:00 /sbin/getty -8 38400 tty3
+root      1013     1  0 08:47 tty6     00:00:00 /sbin/getty -8 38400 tty6
+root      1035     1  0 08:47 ?        00:00:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+root      1041     1  0 08:47 ?        00:00:02 /usr/sbin/irqbalance
+root      1043     1  0 08:47 ?        00:00:00 cron
+daemon    1044     1  0 08:47 ?        00:00:00 atd
+mysql     1060     1  0 08:47 ?        00:00:08 /usr/sbin/mysqld
+root      1078     1  0 08:47 ?        00:00:00 lightdm
+root      1087  1078  2 08:47 tty7     00:11:21 /usr/bin/X :0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch -background none
+postgres  1094     1  0 08:47 ?        00:00:00 /usr/lib/postgresql/9.1/bin/postgres -D /var/lib/postgresql/9.1/main -c config_file=/etc/postgresql/9.1/main/postgresql.conf
+root      1137  1078  0 08:47 ?        00:00:00 [lightdm] <defunct>
+root      1141     1  0 08:47 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root      1158     1  0 08:47 ?        00:00:00 /usr/sbin/console-kit-daemon --no-daemon
+postgres  1260  1094  0 08:47 ?        00:00:03 postgres: writer process                                                                                                    
+postgres  1261  1094  0 08:47 ?        00:00:02 postgres: wal writer process                                                                                                
+postgres  1262  1094  0 08:47 ?        00:00:00 postgres: autovacuum launcher process                                                                                       
+postgres  1263  1094  0 08:47 ?        00:00:00 postgres: stats collector process                                                                                           
+root      1269     1  0 08:47 ?        00:00:00 /usr/lib/upower/upowerd
+root      1403     2  0 08:47 ?        00:00:01 [flush-8:0]
+root      1498     1  0 08:47 ?        00:00:00 /usr/sbin/apache2 -k start
+tomcat7   1564     1  0 08:47 ?        00:00:27 /usr/lib/jvm/default-java/bin/java -Djava.util.logging.config.file=/var/lib/tomcat7/conf/logging.properties -Djava.awt.headless=true -Xmx128m -XX:+UseConcMarkSweepGC -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.endorsed.dirs=/usr/share/tomcat7/endorsed -classpath /usr/share/tomcat7/bin/bootstrap.jar:/usr/share/tomcat7/bin/tomcat-juli.jar -Dcatalina.base=/var/lib/tomcat7 -Dcatalina.home=/usr/share/tomcat7 -Djava.io.tmpdir=/tmp/tomcat7-tomcat7-tmp org.apache.catalina.startup.Bootstrap start
+root      1706     1  0 08:47 tty1     00:00:00 /sbin/getty -8 38400 tty1
+www-data  1874  1498  0 09:03 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  1875  1498  0 09:03 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  1876  1498  0 09:03 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  1877  1498  0 09:03 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  1878  1498  0 09:03 ?        00:00:00 /usr/sbin/apache2 -k start
+root      2042  1078  0 09:57 ?        00:00:00 lightdm --session-child 12 25
+root      2043   861  0 09:57 ?        00:00:00 /sbin/dhclient -d -4 -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /var/run/sendsigs.omit.d/network-manager.dhclient-eth0.pid -lf /var/lib/dhcp/dhclient-e4968839-ec31-4221-ac85-2af8c81069ff-eth0.lease -cf /var/run/nm-dhclient-eth0.conf eth0
+nobody    2048   861  0 09:57 ?        00:00:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.0.1 --conf-file=/var/run/nm-dns-dnsmasq.conf --cache-size=0 --proxy-dnssec
+1001      2111  2042  0 09:58 ?        00:00:00 /bin/sh /etc/xdg/xfce4/xinitrc -- /etc/X11/xinit/xserverrc
+1001      2144  2111  0 09:58 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session startxfce4
+1001      2147     1  0 09:58 ?        00:00:00 /usr/bin/dbus-launch --exit-with-session startxfce4
+1001      2148     1  0 09:58 ?        00:00:01 //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+1001      2156     1  0 09:58 ?        00:00:00 /usr/lib/xfce4/xfconf/xfconfd
+1001      2162  2111  0 09:58 ?        00:00:03 xscreensaver -no-splash
+1001      2164  2111  0 09:58 ?        00:00:01 xfce4-session
+1001      2170  2164  0 09:58 ?        00:00:08 xfwm4 --replace --display :0.0 --sm-client-id 266b124a0-4b18-4bd0-bfd1-65722dd207e6
+1001      2172     1  0 09:58 ?        00:00:00 xfsettingsd --force
+1001      2173  2164  0 09:58 ?        00:00:00 Thunar --sm-client-id 2f0d248fd-7097-44ba-ba94-97276f35bf30 --daemon
+1001      2174  2164  1 09:58 ?        00:06:34 Thunar --sm-client-id 2f2db9aa3-c9af-4d93-aed0-f7bb722deeb8 --daemon
+1001      2175  2164  0 09:58 ?        00:00:14 Thunar --sm-client-id 24bdb9344-45d8-427e-8c44-e60e580be1a5 --daemon
+1001      2176  2164  0 09:58 ?        00:00:10 Thunar --sm-client-id 2a0e8b241-786b-4273-b7ad-c48c4b19a8c8 --daemon
+1001      2177  2164  0 09:58 ?        00:00:10 Thunar --sm-client-id 29f6a447d-e852-4548-9709-c7a21c61897b --daemon
+1001      2179     1  0 09:58 ?        00:00:00 /usr/lib/gvfs/gvfsd
+1001      2181     1  0 09:58 ?        00:00:00 /usr/lib/gvfs//gvfs-fuse-daemon -f /home/SenthilASB/.gvfs
+1001      2182  2164  0 09:58 ?        00:00:16 xfce4-panel --display :0.0 --sm-client-id 280bdae76-12f2-41c7-aa69-1ea600542924
+1001      2189     1  0 09:58 ?        00:00:00 /usr/lib/gvfs/gvfs-gdu-volume-monitor
+root      2191     1  0 09:58 ?        00:00:00 /usr/lib/udisks/udisks-daemon
+1001      2192  2164  0 09:58 ?        00:00:02 xfdesktop --display :0.0 --sm-client-id 2bb07274b-a9cf-476b-937d-0b82c34dff18
+root      2193  2191  0 09:58 ?        00:00:00 udisks-daemon: not polling any devices
+1001      2196     1  0 09:58 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+1001      2200     1  0 09:58 ?        00:00:01 /usr/lib/gvfs/gvfs-afc-volume-monitor
+1001      2201     1  0 09:58 ?        00:00:00 xfce4-power-manager --restart --sm-client-id 2fe805b28-a5a1-4d91-9dee-069b5b54d67d
+1001      2203     1  0 09:58 ?        00:00:00 xfce4-settings-helper --display :0.0 --sm-client-id 23fb03d03-42f7-4408-ad4f-01d8c78ed7c8
+1001      2207     1  0 09:58 ?        00:00:00 nm-applet
+1001      2211     1  0 09:58 ?        00:00:00 update-notifier
+1001      2218     1  0 09:58 ?        00:00:00 xfce4-power-manager
+1001      2222     1  0 09:58 ?        00:00:00 /usr/lib/i386-linux-gnu/gconf/gconfd-2
+1001      2225     1  0 09:58 ?        00:00:00 /usr/bin/python /usr/share/system-config-printer/applet.py
+1001      2228     1  0 09:58 ?        00:00:00 /usr/bin/python /usr/bin/blueman-applet
+1001      2229     1  0 09:58 ?        00:00:00 xfce4-volumed
+1001      2234     1  0 09:58 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+1001      2241     1  0 09:58 ?        00:00:09 xfce4-terminal --geometry=80x7 --display :0.0 --role=Terminal-0x221301d0-1857-1441210195 --show-menubar --show-borders --hide-toolbars --working-directory /home/SenthilASB/ASBMSCFOSS/ASBIIISem/ASBDI7302WEB --window --geometry=125x39 --display :0.0 --role=Terminal-0x2142e0f8-1870-1441047405 --show-menubar --show-borders --hide-toolbars --working-directory /home/SenthilASB/ASBphp --window --geometry=125x39 --display :0.0 --role=Terminal-0x2247a020-1967-1439955984 --show-menubar --show-borders --hide-toolbars --working-directory /home/SenthilASB/ASBJava/ASBGui
+1001      2249     1  0 09:58 ?        00:00:00 leafpad
+1001      2257  2182  0 09:58 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libsystray.so 4 29360161 systray Notification Area Area where notification icons appear 
+1001      2261  2182  0 09:58 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper /usr/lib/xfce4/panel-plugins/libdatetime.so 7 29360162 datetime DateTime Date and Time plugin with a simple calendar 
+1001      2264  2182  0 09:58 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libxfsm-logout-plugin.so 9 29360168 xfsm-logout-plugin Session Menu Shows a menu with options to lock the screen, suspend, shutdown, or log out 
+1001      2268     1  0 09:58 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.9 /org/gtk/gvfs/exec_spaw/2
+1001      2271  2182  0 09:58 ?        00:00:16 /usr/lib/i386-linux-gnu/xfce4/panel-plugins/xfce4-orageclock-plugin  28 29360172 xfce4-orageclock-plugin Orage Panel Clock Show time and date? 
+1001      2274  2241  0 09:59 ?        00:00:00 [xfce4-terminal] <defunct>
+1001      2275  2241  0 09:59 pts/0    00:00:00 bash
+1001      2277  2241  0 09:59 pts/1    00:00:00 bash
+1001      2278  2241  0 09:59 pts/4    00:00:00 bash
+1001      2282     1  2 09:59 ?        00:10:14 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit     2284     1  0 09:59 ?        00:00:00 /usr/lib/rtkit/rtkit-daemon
+1001      2285  2182  0 09:59 ?        00:00:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libthunar-tpa.so 24 29360173 thunar-tpa Trash Applet Display the trash can 
+1001      2286  2182  1 09:59 ?        00:04:24 /usr/lib/xfce4-cpugraph-plugin/xfce4/panel-plugins/xfce4-cpugraph-plugin  30 29360174 cpugraph CPU Graph Graphical representation of the CPU load 
+1001      2287  2182  0 09:59 ?        00:00:00 /usr/lib/xfce4-dict/xfce4/panel-plugins/xfce4-dict-plugin  14 29360175 xfce4-dict-plugin Dictionary A plugin to query different dictionaries. 
+1001      2304     1  0 09:59 ?        00:00:00 /usr/lib/gvfs/gvfsd-network --spawner :1.9 /org/gtk/gvfs/exec_spaw/6
+1001      2364     1  0 09:59 ?        00:00:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.9 /org/gtk/gvfs/exec_spaw/10
+1001      2391     1  0 09:59 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+1001      2536     1  0 09:59 ?        00:00:00 /usr/bin/obex-data-server --no-daemon 
+1001      2570     1  7 09:59 ?        00:28:43 /usr/lib/firefox/firefox
+1001      2835  2570 26 10:17 ?        01:38:35 /usr/lib/firefox/plugin-container /usr/lib/adobe-flashplugin/libflashplayer.so -greomni /usr/lib/firefox/omni.ja 2570 true plugin
+1001      3049     1  0 10:53 ?        00:00:04 leafpad /home/SenthilASB/ASBMSCFOSS/ASBIIISem/ASBDIF7303PHP/ASB_Drupal
+1001      3070  2241  0 10:56 pts/5    00:00:00 bash
+www-data  3189  1498  0 11:02 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  3225  1498  0 11:08 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  3226  1498  0 11:08 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  3228  1498  0 11:08 ?        00:00:00 /usr/sbin/apache2 -k start
+1001      3291     1  0 11:16 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+1001      3486     1  0 11:36 ?        00:00:00 /usr/lib/dconf/dconf-service
+root      3660   397  0 12:06 ?        00:00:00 /sbin/udevd --daemon
+root      3728   397  0 12:08 ?        00:00:00 /sbin/udevd --daemon
+1001      3775  2241  0 12:32 pts/6    00:00:01 bash
+root      4053     1  0 12:52 ?        00:00:00 /sbin/mount.ntfs /dev/sda1 /media/System Reserved -o rw,nosuid,nodev,uhelper=udisks,uid=1001,gid=1001,dmask=0077,fmask=0177
+root      4515     2  0 13:23 ?        00:00:00 [kworker/0:0]
+1001      4851  2271  0 14:20 ?        00:00:02 orage
+root      4917     2  0 14:46 ?        00:00:00 [kworker/1:0]
+root      5433     2  0 16:16 ?        00:00:00 [kworker/0:2]
+1001      5607     1  0 16:19 ?        00:00:00 leafpad /home/SenthilASB/ASBMSCFOSS/ASBIIISem/ASBDIF7305VC/ASBVersionControl_1
+1001      5610     1  0 16:19 ?        00:00:00 leafpad /home/SenthilASB/ASBMSCFOSS/ASBIIISem/ASBDIF7305VC/ASBVersionControl_1
+root      5697     2  0 16:26 ?        00:00:00 [kworker/1:2]
+root      5731     2  0 16:31 ?        00:00:00 [kworker/1:1]
+1001      5743  3775  1 16:33 pts/6    00:00:00 ps -ef
