@@ -8,5 +8,11 @@ Varadu - adding a line at the end
 
 am changing this file while narayanan is renaming it!
 lets see what happens! :)
+<<<<<<< HEAD:subversion_files/common/genmerge.txt
 new branch added in today's class - Satish
 
+=======
+
+am updating the branches version of genmerge file with my message
+we will see what happens when satish merges his changes!
+>>>>>>> 82dbdb0a4cf21f44fff9702532ce1144e8ed75a2:common/genmerge.txt
