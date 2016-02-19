@@ -1,0 +1,4 @@
+Android App Module is the container of your apps source code , resource files and app level settings.
+					such as module-level-build file,resource files, and Android Manifest File.
+
+					App module contains contents that are to be built inot an .apk file that get installed on the device.
